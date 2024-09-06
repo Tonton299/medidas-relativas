@@ -1,0 +1,41 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: 0px;
+}
+
+.primeira-sessao{
+    background-color: rgba(0, 255, 255, 0.37);
+    // largura
+    width: 200px;
+    // altura
+    height: 200px;
+
+    div{
+        background-color: rgba(255, 0, 0, 0.584);
+        width: 20vw;
+        height: 20vh;
+    }
+
+    // medidas relativas
+    // vw (viewport width)
+    // largura da janela de vizualização
+    // 1vw é igual a 1% da largura da minha pagina
+    // vh (viewport height)
+}
+
+.segunda-sessao{
+    background-color: rgba(225, 255, 0, 0.37);
+    // largura
+    width: 200px;
+    // altura
+    height: 200px;
+
+    div{
+        background-color: rgba(128, 0, 128, 0.534);
+        // % porcentagem
+        // relativa ao pai
+        width: 50%;
+        height: 50%;
+    }
+}
